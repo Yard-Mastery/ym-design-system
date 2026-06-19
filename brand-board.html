@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Yard Mastery — Brand Board</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Lora:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --green:#64B356; --gold:#E0C030; --action:#02AE65; --red:#D12442; --orange:#FF8B21;
+    --ink:#191919; --slate:#3C3C3C; --deepturf:#1E5631; --sod:#8CD06B; --mist:#F4F5F2; --line:#E3E5E0;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--mist);color:var(--ink);font-family:"Lora",Georgia,serif;line-height:1.55}
+  h1,h2,h3,.display,.btn,.eyebrow{font-family:"Roboto",Arial,sans-serif}
+  .wrap{max-width:1080px;margin:0 auto;padding:32px 24px 80px}
+  header{background:#fff;border:1px solid var(--line);border-radius:18px;padding:28px 32px;display:flex;align-items:center;gap:24px;flex-wrap:wrap}
+  header img{height:64px}
+  .eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--action);font-weight:700;margin:0 0 6px}
+  header h1{font-size:30px;margin:0;font-weight:900;letter-spacing:-.01em}
+  header p{margin:6px 0 0;color:var(--slate)}
+  section{background:#fff;border:1px solid var(--line);border-radius:18px;padding:26px 32px;margin-top:22px}
+  section h2{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--slate);margin:0 0 18px;font-weight:700}
+  .swatches{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px}
+  .sw{border-radius:12px;overflow:hidden;border:1px solid var(--line)}
+  .sw .chip{height:84px}
+  .sw .meta{padding:8px 10px;font-family:"Roboto",Arial,sans-serif}
+  .sw .meta b{display:block;font-size:13px}
+  .sw .meta span{font-size:12px;color:var(--slate)}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+  @media(max-width:720px){.grid2{grid-template-columns:1fr}}
+  .display{font-weight:900;text-transform:uppercase;font-size:40px;line-height:1.02;letter-spacing:-.01em;margin:0}
+  .sub{font-family:"Roboto",Arial,sans-serif;font-weight:700;font-size:20px;margin:8px 0 0}
+  .body-sample{font-size:16px;margin:10px 0 0;color:var(--slate)}
+  .btn{display:inline-block;background:var(--action);color:#fff;font-weight:700;text-transform:uppercase;letter-spacing:.04em;
+       padding:13px 22px;border-radius:8px;font-size:14px;text-decoration:none}
+  .btn.alt{background:var(--ink)} .btn.sale{background:var(--red)}
+  .pill{display:inline-block;background:var(--mist);border:1px solid var(--line);border-radius:999px;padding:6px 12px;margin:4px 6px 0 0;font-family:"Roboto",Arial,sans-serif;font-size:13px}
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+  .card{border:1px solid var(--line);border-radius:12px;padding:16px}
+  .do{border-left:5px solid var(--action)} .dont{border-left:5px solid var(--red)}
+  .card ul{margin:8px 0 0;padding-left:18px} .card li{margin:4px 0;font-size:14px}
+  .files{columns:2;font-family:"Roboto",Arial,sans-serif;font-size:14px}
+  @media(max-width:720px){.files{columns:1};.two{grid-template-columns:1fr}}
+  .files a{color:var(--deepturf)}
+  code{background:var(--mist);padding:2px 6px;border-radius:5px;font-size:13px}
+  .muted{color:var(--slate);font-size:13px}
+  .barrow{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <img src="https://yardmastery.com/cdn/shop/files/YM_Logo_Color_d568a775-f4b0-4345-8dce-49f2c2142979_480x.png" alt="Yard Mastery logo" />
+    <div>
+      <p class="eyebrow">Design System · v1.0</p>
+      <h1>Build the Yard of Your Dreams</h1>
+      <p>Pro-grade lawn care products for DIY homeowners. The same results the pros get — without the recurring service bill.</p>
+    </div>
+  </header>
+
+  <section>
+    <h2>Brand pillars</h2>
+    <div class="barrow">
+      <span class="pill">🌱 Pro Formulas</span>
+      <span class="pill">🛠️ DIY Friendly</span>
+      <span class="pill">✅ Real Results</span>
+      <span class="pill">💬 Expert Support</span>
+      <span class="pill">🇺🇸 Made in America</span>
+    </div>
+    <p class="muted" style="margin-top:14px">Voice: a confident coach who happens to be a lawn expert — plain-spoken, encouraging, benefit-first, talks straight to “you.” Built alongside Allyn Hane, “The Lawn Care Nut.”</p>
+  </section>
+
+  <section>
+    <h2>Color palette</h2>
+    <div class="swatches">
+      <div class="sw"><div class="chip" style="background:#64B356"></div><div class="meta"><b>YM Green</b><span>#64B356</span></div></div>
+      <div class="sw"><div class="chip" style="background:#E0C030"></div><div class="meta"><b>Harvest Gold</b><span>#E0C030</span></div></div>
+      <div class="sw"><div class="chip" style="background:#02AE65"></div><div class="meta"><b>Action Green</b><span>#02AE65</span></div></div>
+      <div class="sw"><div class="chip" style="background:#D12442"></div><div class="meta"><b>Sale Red</b><span>#D12442</span></div></div>
+      <div class="sw"><div class="chip" style="background:#FF8B21"></div><div class="meta"><b>Energy Orange</b><span>#FF8B21</span></div></div>
+      <div class="sw"><div class="chip" style="background:#191919"></div><div class="meta"><b>Ink</b><span>#191919</span></div></div>
+      <div class="sw"><div class="chip" style="background:#1E5631"></div><div class="meta"><b>Deep Turf</b><span>#1E5631</span></div></div>
+      <div class="sw"><div class="chip" style="background:#8CD06B"></div><div class="meta"><b>Fresh Sod</b><span>#8CD06B</span></div></div>
+    </div>
+    <p class="muted" style="margin-top:14px">60/30/10 — neutral / green family / accent. Red = sale &amp; urgency only. Full detail in <code>guidelines/02-visual-identity.md</code>.</p>
+  </section>
+
+  <section>
+    <h2>Typography</h2>
+    <div class="grid2">
+      <div>
+        <p class="eyebrow" style="color:var(--slate)">Roboto — headlines</p>
+        <p class="display">Beat the Summer Heat</p>
+        <p class="sub">Subhead in Roboto Bold</p>
+      </div>
+      <div>
+        <p class="eyebrow" style="color:var(--slate)">Lora — body</p>
+        <p class="body-sample">Stress Blend 7-0-20 helps your lawn survive heat, drought &amp; stress — without pushing weak top growth. High-potassium, with iron &amp; Bio-Nite™. Safe for all grass types.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Buttons &amp; CTAs</h2>
+    <div class="barrow">
+      <a class="btn" href="#">Shop Now</a>
+      <a class="btn" href="#">Buy Here</a>
+      <a class="btn alt" href="#">Learn More</a>
+      <a class="btn sale" href="#">Save 30%</a>
+    </div>
+    <p class="muted" style="margin-top:14px">Verbs: SHOP NOW · BUY HERE · SAVE HERE · LEARN MORE · WATCH HERE · CHECK YOUR CALENDAR.</p>
+  </section>
+
+  <section>
+    <h2>Imagery — do &amp; don't</h2>
+    <div class="two">
+      <div class="card do"><b>Do</b>
+        <ul>
+          <li>Real, achievable results — thick, even green turf</li>
+          <li>Product in context (on the lawn, in hand, in use)</li>
+          <li>Warm natural light; vivid-but-believable greens</li>
+          <li>Clean space for headline + logo</li>
+        </ul>
+      </div>
+      <div class="card dont"><b>Don't</b>
+        <ul>
+          <li>Fake neon / plastic-looking grass</li>
+          <li>Cluttered or gloomy/cold-blue scenes</li>
+          <li>Competitor or big-box products</li>
+          <li>Let AI render the logo/text — composite real assets</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Product naming</h2>
+    <p style="font-family:'Roboto',Arial,sans-serif;font-size:18px;margin:0">
+      <b>24-0-6 Flagship</b> · <b>7-0-20 Stress Blend</b> · <b>16-0-0 Double Dark</b> · <b>0-0-7 Prodiamine</b>
+    </p>
+    <p class="muted" style="margin-top:10px">Always lead with the NPK number, then the name. Trademark <b>Bio-Nite™</b>. Coverage: 18 lb → 6,000 sq ft · 45 lb → 15,000 sq ft. Full catalog in <code>guidelines/04-products.md</code>.</p>
+  </section>
+
+  <section>
+    <h2>The system — file index</h2>
+    <div class="files">
+      <p><a href="README.md">README.md</a> — start here</p>
+      <p><a href="guidelines/01-brand-foundation.md">01 · Brand Foundation</a></p>
+      <p><a href="guidelines/02-visual-identity.md">02 · Visual Identity</a></p>
+      <p><a href="guidelines/03-imagery.md">03 · Imagery</a></p>
+      <p><a href="guidelines/04-products.md">04 · Products</a></p>
+      <p><a href="guidelines/05-layout-and-channels.md">05 · Layout &amp; Channels</a></p>
+      <p><a href="guidelines/06-copywriting.md">06 · Copywriting</a></p>
+      <p><a href="prompts/image-prompt-library.md">Image Prompt Library</a></p>
+      <p><a href="prompts/style-tokens.md">Style Tokens</a></p>
+      <p><a href="templates/email-templates.md">Email Templates</a></p>
+      <p><a href="templates/social-templates.md">Social Templates</a></p>
+      <p><a href="assets/ASSET-LOG.md">Asset Log</a></p>
+    </div>
+  </section>
+
+  <p class="muted" style="text-align:center;margin-top:26px">Yard Mastery Design System · v1.0 · sources: email archive (2025–2026) + yardmastery.com</p>
+</div>
+</body>
+</html>
